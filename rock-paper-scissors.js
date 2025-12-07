@@ -148,8 +148,8 @@ function resetWarning () {
         document.querySelector('.js-result').innerHTML = `Result: ${result}`;
 
         document.querySelector('.js-moves').innerHTML = `You
-    <img class="move-icon" src = 'game-icons/${playerPick.toLowerCase()}-emoji.png'>
-    <img  class = "move-icon"src = 'game-icons/${computerPick.toLowerCase()}-emoji.png'>
+    <img class="move-icon" src='game-icons/${playerPick.toLowerCase()}-emoji.png'>
+    <img  class = "move-icon" src ='game-icons/${computerPick.toLowerCase()}-emoji.png'>
     computer `;
 
 
